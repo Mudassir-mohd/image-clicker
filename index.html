@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Gallery with Lightbox</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="gallery-container">
+    <div class="gallery-item"><img src="https://i.pinimg.com/736x/02/98/40/0298409ea93f6f4772742ee43c3c676c.jpg" alt="Image 1" /></div>
+    <div class="gallery-item"><img src="https://i.pinimg.com/736x/44/92/b7/4492b70cdebd9012188607587a1d4b10.jpg" alt="Image 2" /></div>
+    <div class="gallery-item"><img src="https://i.pinimg.com/736x/35/d7/06/35d70627c4f34bc0958374aa20e0ffc7.jpg" alt="Image 3" /></div>
+  </div>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" />
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
